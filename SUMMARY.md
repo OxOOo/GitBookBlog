@@ -1,3 +1,5 @@
 # 目录
 
-* [第一章] (INFO.md)
+* [简介](README.md)
+
+* [第一章](INFO.md)
