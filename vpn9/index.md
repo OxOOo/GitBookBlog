@@ -20,13 +20,13 @@
 
 1. 首先，你需要下载安装OpenVPN
 
-    你可以选择从[官网](http://openvpn.ustc.edu.cn/)下载，或者直接从[此处](files/openvpn-install-2.3.10-I601-x86_64.exe)下载。
+    你可以选择从[官网](http://openvpn.ustc.edu.cn/)下载，或者直接从<a href="files/openvpn-install-2.3.10-I601-x86_64.exe" target="_blank">此处</a>下载。
 
     下载好之后，直接安装即可，需要特别注意安装的路径（在我的Windows10电脑上安装路径是C:\Program Files\OpenVPN）。
 
 1. 然后，你需要下载VPN9的配置文件
 
-    进入[https://vpn.net9.org/](https://vpn.net9.org/)下载，或者直接从[此处](files/vpn9.ovpn)下载。
+    进入[https://vpn.net9.org/](https://vpn.net9.org/)下载，或者直接从<a href="files/vpn9.ovpn" target="_blank">此处</a>下载。
 
     然后，将配置文件拷贝到之前安装OpenVPN目录下的config子目录下：
 
@@ -56,6 +56,6 @@
 
     ![OpenVPN链接成功](images/openvpn-success.png)
 
-    打开浏览器，进入[net.tsinghua.edu.cn](net.tsinghua.edu.cn)，可以看到确实不限流量了
+    打开浏览器，进入[http://net.tsinghua.edu.cn](http://net.tsinghua.edu.cn)，可以看到确实不限流量了
 
     ![不限流量](images/success.png)
