@@ -78,7 +78,7 @@
 
 1. 运行OpenVPN
 
-    在终端里执行（注意，需要把/path/to/vpn9.ovpn改成你的配置文件的路径，由于需要toor权限，这里的sudo不能少）：
+    在终端里执行（注意，需要把/path/to/vpn9.ovpn改成你的配置文件的路径，由于需要root权限，这里的sudo不能少）：
 
     ```bash
     > sudo openvpn --config /path/to/vpn9.ovpn
