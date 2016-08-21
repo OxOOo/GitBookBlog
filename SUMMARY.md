@@ -11,3 +11,5 @@
     - [Windows下搭建VPN9](vpn9/index.md#windows)
 
     - [Ubuntu下搭建VPN9](vpn9/index.md#ubuntu)
+
+    - [Mac下搭建VPN9](vpn9/index.md#mac)
