@@ -9,3 +9,5 @@
     - [先决条件](vpn9/index.md#requires)
 
     - [Windows下搭建VPN9](vpn9/index.md#windows)
+
+    - [Ubuntu下搭建VPN9](vpn9/index.md#ubuntu)

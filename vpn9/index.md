@@ -59,3 +59,61 @@
     打开浏览器，进入[http://net.tsinghua.edu.cn](http://net.tsinghua.edu.cn)，可以看到确实不限流量了
 
     ![不限流量](images/success.png)
+
+### Ubuntu下搭建VPN9 {#ubuntu}
+
+1. 下载OpenVPN
+
+    在终端里执行：
+
+    ```bash
+    > sudo apt-get install openvpn
+    ```
+
+    下载安装OpenVPN
+
+1. 下载配置文件
+
+    进入[https://vpn.net9.org/](https://vpn.net9.org/)下载，或者直接从<a href="files/vpn9.ovpn" target="_blank">此处</a>下载。
+
+1. 运行OpenVPN
+
+    在终端里执行（注意，需要把/path/to/vpn9.ovpn改成你的配置文件的路径，由于需要toor权限，这里的sudo不能少）：
+
+    ```bash
+    > sudo openvpn --config /path/to/vpn9.ovpn
+    ```
+
+    运行，然后输入用户名和密码，就可以使用了。
+
+    ```bash
+    Sun Aug 21 13:00:43 2016 OpenVPN 2.3.10 x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [EPOLL] [PKCS11] [MH] [IPv6] built on Feb  2 2016
+    Sun Aug 21 13:00:43 2016 library versions: OpenSSL 1.0.2g-fips  1 Mar 2016, LZO 2.08
+    Enter Auth Username: ******
+    Enter Auth Password: ***********
+    ...
+    ```
+
+1. 进阶
+
+    之前的方案已经可以正常的在Ubuntu下使用VPN9了。
+
+    如果你觉得每次都要输入用户名和密码非常麻烦的话，那么可以继续看看以下的教程。
+
+    为了方便和安全，我们把vpn9.ovpn拷贝到/etc/openvpn/目录下。
+
+    为了不用每次都输入用户名和密码，你需要准备一个文本文件，比如/etc/openvpn/auth.txt，在文件的第一行写上A9账号的用户名，第二行写上A9账号的密码。
+
+    然后，打开/etc/openvpn/vpn9.ovpn，将auth-user-pass一行修改为：
+
+    ```
+    auth-user-pass /etc/openvpn/auth.txt
+    ```
+
+    在终端里，直接执行openvpn的启动命令就可以了：
+
+    ```bash
+    > sudo openvpn --config /etc/openvpn/vpn9.ovpn
+    ```
+
+    需要注意的是，由于这种方法是直接将用户名和密码存入文件中，所以最好修改下文件的访问权限，防止泄露密码。
