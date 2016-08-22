@@ -4,7 +4,11 @@
 
 ### 下载Qt
 
-0. 你可以直接将[http://download.qt.io/official_releases/qt/5.7/5.7.0/qt-opensource-windows-x86-mingw530-5.7.0.exe](http://download.qt.io/official_releases/qt/5.7/5.7.0/qt-opensource-windows-x86-mingw530-5.7.0.exe)复制到迅雷或其他下载器中下载，大小1.1G。
+0. 你可以直接从下载链接处下载，大小1.1G。
+
+    官网链接（需要流量）：[http://download.qt.io/official_releases/qt/5.7/5.7.0/qt-opensource-windows-x86-mingw530-5.7.0.exe](http://download.qt.io/official_releases/qt/5.7/5.7.0/qt-opensource-windows-x86-mingw530-5.7.0.exe)
+
+    TUNA镜像（不用流量）：[https://mirrors.tuna.tsinghua.edu.cn/qt/archive/qt/5.7/5.7.0/qt-opensource-windows-x86-mingw530-5.7.0.exe](https://mirrors.tuna.tsinghua.edu.cn/qt/archive/qt/5.7/5.7.0/qt-opensource-windows-x86-mingw530-5.7.0.exe)
 
     如果你是直接从这个链接下载的，那么久可以直接跳到安装环节了。
 
