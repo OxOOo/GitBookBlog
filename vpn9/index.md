@@ -120,4 +120,24 @@
 
 ### Mac下搭建VPN9 {#mac}
 
-我没有Mac，所以23333333333
+1. 下载OS X下的开源OpenVPN客户端TunnelBlick
+
+    进入[https://tunnelblick.net/](https://tunnelblick.net/)下载，或者直接从<a href="https://tunnelblick.net/release/Tunnelblick_3.6.5_build_4566.dmg" target="_blank">此处</a>下载。
+    
+1. 下载配置文件
+
+    进入[https://vpn.net9.org/](https://vpn.net9.org/)下载，或者直接从<a href="files/vpn9.ovpn" target="_blank">此处</a>下载。
+    
+1. 导入配置文件，需要输入当前OS X用户的用户名，密码
+
+    ![导入配置文件](images/osx1.png)
+    ![输入用户名密码](images/osx1_1.png)
+    ![导入配置文件后](images/osx2.png)
+    
+1. 初次启动 OpenVPN，注意勾选保存用户名，密码
+
+    ![启动连接](images/osx3.png)
+    
+1. 正常启动 OpenVPN 连接
+
+    ![正常启动连接](images/osx4.png)
