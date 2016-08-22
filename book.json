@@ -3,9 +3,8 @@
     "description" : "宇过天晴的GitBook博客",
     "author" : "陈宇 <believe.chenyu@gmail.com>",
     "language" : "zh-hans",
-    "gitbook" : ">= 3.0.0",
+    "gitbook" : ">= 3.1.1",
     "plugins" : [
-        "disqus",
         "-search",
         "search-pro",
         "katex",
@@ -14,9 +13,6 @@
         "baidu"
     ],
     "pluginsConfig": {
-        "disqus": {
-            "shortName": "gitbookuse"
-        },
         "tbfed-pagefooter": {
             "modify_label": "该文件修订时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
