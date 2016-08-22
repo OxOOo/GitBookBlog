@@ -120,6 +120,8 @@
 
 ### Mac下搭建VPN9 {#mac}
 
+**以下内容由 马晓健 提供**
+
 1. 下载OS X下的开源OpenVPN客户端TunnelBlick
 
     进入[https://tunnelblick.net/](https://tunnelblick.net/)下载，或者直接从<a href="https://tunnelblick.net/release/Tunnelblick_3.6.5_build_4566.dmg" target="_blank">此处</a>下载。
