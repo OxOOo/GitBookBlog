@@ -3,6 +3,7 @@
     "description" : "宇过天晴的GitBook博客",
     "author" : "陈宇 <believe.chenyu@gmail.com>",
     "language" : "zh-hans",
+    "gitbook" : ">= 3.0.0",
     "plugins" : [
         "disqus",
         "-search",
