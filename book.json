@@ -8,7 +8,9 @@
         "disqus",
         "katex",
         "splitter",
-        "baidu"
+        "baidu",
+        "local-video",
+        "ga"
     ],
     "pluginsConfig": {
         "disqus": {
@@ -16,6 +18,9 @@
         },
         "baidu": {
             "token": "8ddd84ac96ce1efc230d09e2ae20f881"
+        },
+        "ga": {
+            "token": "UA-XXXX-Y"
         }
     }
 }
