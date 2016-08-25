@@ -17,3 +17,5 @@
 * [Windows下QtCreator安装教程](qt-install/index.md)
 
 * [QtCreator帮助文档使用教程](qt-help/index.md)
+
+* [Qt中的属性动画](qt-animation/index.md)
