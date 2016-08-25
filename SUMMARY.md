@@ -14,4 +14,6 @@
 
     - [Mac下搭建VPN9](vpn9/index.md#mac)
 
-* [Windows下QtCreator安装教程](qt-creator/index.md)
+* [Windows下QtCreator安装教程](qt-install/index.md)
+
+* [QtCreator帮助文档使用教程](qt-help/index.md)
