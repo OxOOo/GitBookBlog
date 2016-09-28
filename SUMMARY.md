@@ -19,3 +19,7 @@
 * [QtCreator帮助文档使用教程](qt-help/index.md)
 
 * [Qt中的属性动画](qt-animation/index.md)
+
+* [数据结构PA](dsa/index.md)
+
+    - [CST2016 1-1 BigInt 大整数乘法](dsa/BigInt.md)
